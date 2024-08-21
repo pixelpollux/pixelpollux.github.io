@@ -91,7 +91,6 @@ button.button_slide {
 
 button.slide_right:hover {
   background-color: #330036;
-  box-shadow: inset 0 0 0 50px #330036;
   border: 1px #EDFF00 solid;
   color: #EDFF00;
 }
@@ -242,6 +241,10 @@ nav.navbar-light {
   margin-bottom: 1rem;
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+button.navbar-toggler:focus {
+  border: #fe019a solid 2px;
 }
 
 .navbar-collapse.collapse.in {

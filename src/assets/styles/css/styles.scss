@@ -131,10 +131,8 @@ button.button_slide {
 
 button.slide_right:hover {
     background-color: $dark-purple;
-    box-shadow: inset 0 0 0 50px $dark-purple;
     border: 1px $electric-lemon solid;
 	color: $electric-lemon;
-    // box-shadow: inset 400px 0 0 0 $electric-lime;
 }
 
 // #outer {
@@ -331,6 +329,12 @@ nav.navbar-light{
     padding-left: 2rem;
     padding-right: 2rem;
     // background-color: transparent;
+}
+
+button.navbar-toggler {
+    &:focus {
+        border: $electric-pink solid 2px ;
+    }
 }
 
 .navbar-collapse.collapse.in {

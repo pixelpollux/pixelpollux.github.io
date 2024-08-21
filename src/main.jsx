@@ -20,7 +20,7 @@ createRoot(document.getElementById('root')).render(
         <SectionHeadshot/>
         {/* right side */}
         <div className="col-12 right-side ">
-          {/* <Navbar/> */}
+          <Navbar/>
           <SectionContainer/>
         </div>  
       </div>

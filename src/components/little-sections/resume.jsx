@@ -14,7 +14,7 @@ export default function Resume() {
                         <div className='resume__job-title'>VML</div>
                         <div className='resume__job-dates'>APRIL 2021 - PRESENT</div>
                     </div>
-                    <p className='resume__job-description'>
+                    <div className='resume__job-description'>
                         <ul>
                             <li>Develop innovative solutions using diverse tech stack including AEM, Drupal, WordPress, and Docker, implementing front-end development processes.</li>
                             <li>Conduct regular site maintenance, troubleshooting, and performance tuning for seamless operation.</li>
@@ -23,7 +23,7 @@ export default function Resume() {
                             <li>Meticulously maintained and updated documentation, ensuring smooth knowledge transfer and facilitating efficient onboarding of new team members.</li>
                             <li>Regularly tune site performance, leading to measurable improvements in speed and reliability.</li>
                         </ul>
-                    </p>
+                    </div>
                 </div>
                 <div className="resume__single-position">
                     <h4 className='resume__comp-name'>
@@ -33,7 +33,7 @@ export default function Resume() {
                         <div className='resume__job-title'>Go Local Interactive</div>
                         <div className='resume__job-dates'>NOVEMBER 2018 - JULY 2019</div>
                     </div>
-                    <p className='resume__job-description'>
+                    <div className='resume__job-description'>
                         <ul>
                             <li>Leveraged WordPress, Apache, PHP, and SASS to deliver high-quality front-end solutions, meeting project deadlines and exceeding client expectations.</li>
                             <li>Meticulously maintained and updated documentation, ensuring smooth knowledge transfer and facilitating efficient onboarding of new team members.</li>
@@ -41,7 +41,7 @@ export default function Resume() {
                             <li>Fostered best practices in development through active participation in code reviews and version control management, improving code quality.</li>
                             <li>Regularly tuned site performance, leading to measurable improvements in speed and reliability.</li>
                         </ul>
-                    </p>
+                    </div>
                 </div>
                 <div className="resume__single-position">
                     <h4 className='resume__comp-name'>
@@ -51,7 +51,7 @@ export default function Resume() {
                         <div className='resume__job-title'>Lockton Companies</div>
                         <div className='resume__job-dates'>AUGUST 2013 - SEPTEMBER 2016</div>
                     </div>
-                    <p className='resume__job-description'>
+                    <div className='resume__job-description'>
                         <ul>
                             <li>Designed and optimized content, including web copy and multimedia, to align with brand guidelines.</li>
                             <li> Edited and proofread content for clarity, accuracy, and consistency.</li>
@@ -59,7 +59,7 @@ export default function Resume() {
                             <li>Enhanced user experience through strategic content design and visual storytelling.</li>
                             <li>Implemented rigorous quality control measures, ensuring all content adhered to brand guidelines and met accessibility standards.</li>
                         </ul>
-                    </p>
+                    </div>
                 </div>
             </div>
             <div className='resume__development'>
@@ -105,7 +105,7 @@ export default function Resume() {
                         <div className='resume__job-title'>Interfuse @ Midwest Burners</div>
                         <div className='resume__job-dates'>JULY 2019 - PRESENT</div>
                     </div>
-                    <p className='resume__job-description'>
+                    <div className='resume__job-description'>
                         <ul>
                             <li>Coordinate, manage, and support department leads in areas such as safety, logistics, art, and volunteer management, ensuring alignment with the overall event plan and objectives.</li>
                             <li>Develop and enforce sustainable practices, focusing on waste management and minimizing the event's environmental impact.</li>
@@ -115,7 +115,7 @@ export default function Resume() {
                             <li>Obtain necessary permits and ensure compliance with local regulations, including land use, noise ordinances, fire safety, and public health guidelines.</li>
                             <li>Develop a comprehensive budget covering all aspects of the event, from infrastructure and equipment to artist grants and participant amenities. Allocate resources effectively to balance costs.</li>
                         </ul>
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>

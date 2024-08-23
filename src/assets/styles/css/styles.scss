@@ -60,7 +60,7 @@ body,#root {
 }
 
 
-a{
+a {
     text-decoration: none;
     color: $electric-pink;
 
@@ -111,29 +111,78 @@ a:hover {
     // width: 33%;
     // text-align: center;
 }
-
-button.button_slide {
+button.button-style, 
+.button-style {
     color: $grey;
     border-radius: 10px;
     padding: 6px 10px;
     display: inline-block;
     font-weight: 600;
     font-family: $montserrat;
-    // margin-right: 1rem;
+    font-size: 1rem;
     letter-spacing: 2px;
+    text-decoration: none;
     cursor: pointer;
     background-color: $dark-purple;
     box-shadow: 4px 7px 20px rgba(0, 0, 0, 0.25);
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
+
+    &:hover {
+        background-color: $dark-purple;
+        border: 1px $electric-lemon solid;
+        color: $electric-lemon;
+    }
+
+    &:active {
+        color: $dark-purple;
+        background-color: transparent;
+        border: solid 1px $dark-purple;
+    }
+
+    &:focus-visible {
+        color: $dark-purple;
+        background-color: transparent;
+        border: 0;
+        outline: 0;
+        box-shadow: 4px 7px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    // &:visited {
+    //     color: $electric-pink;
+    //     background-color: $grey;
+    //     // border: 0;
+    //     outline: solid 1px $electric-pink;
+    //     // box-shadow: 4px 7px 20px rgba(0, 0, 0, 0.25);
+    // }
 }
 
-button.slide_right:hover {
-    background-color: $dark-purple;
-    border: 1px $electric-lemon solid;
-	color: $electric-lemon;
-}
+// button.button_slide, 
+// .contact-links {
+//     color: $grey;
+//     border-radius: 10px;
+//     padding: 6px 10px;
+//     display: inline-block;
+//     font-weight: 600;
+//     font-family: $montserrat;
+//     font-size: 1rem;
+//     // margin-right: 1rem;
+//     letter-spacing: 2px;
+//     cursor: pointer;
+//     background-color: $dark-purple;
+//     box-shadow: 4px 7px 20px rgba(0, 0, 0, 0.25);
+//     -webkit-transition: ease-out 0.4s;
+//     -moz-transition: ease-out 0.4s;
+//     transition: ease-out 0.4s;
+// }
+
+// button.slide_right:hover, 
+// .contact-links:hover {
+//     background-color: $dark-purple;
+//     border: 1px $electric-lemon solid;
+// 	color: $electric-lemon;
+// }
 
 // #outer {
 //     width: 364px;
@@ -333,6 +382,7 @@ nav.navbar-light{
 
 button.navbar-toggler {
     &:focus {
+        box-shadow: none;
         border: $electric-pink solid 2px ;
     }
 }
@@ -481,6 +531,8 @@ section#certifications h3{
     text-align: center;
 }
 
+// .contact-links
+
 #form-container{
     margin-top: 3rem;
 }
@@ -578,7 +630,7 @@ form#contact-form textarea {
 // ====================================================================================
 
 @media only screen and (max-width: 500px) {
-    button.button_slide {
+    button.button_slide, .contact-links {
         width: 100%;
     }
 
@@ -627,14 +679,14 @@ form#contact-form textarea {
         text-align: center;
     }
 
-    #contact-me ul li a {
-        color: $dark-purple;
-        text-decoration: none;
-    }
+    // #contact-me ul li a {
+    //     color: $dark-purple;
+    //     text-decoration: none;
+    // }
 
-    #contact-me ul li a:hover {
-        color: $electric-pink;
-    }
+    // #contact-me ul li a:hover {
+    //     color: $electric-pink;
+    // }
 
 }
 
@@ -645,7 +697,7 @@ form#contact-form textarea {
     }
 }
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 1024px) {
     .heading {
         font-size: 80vh;
     }

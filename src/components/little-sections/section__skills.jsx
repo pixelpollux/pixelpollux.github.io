@@ -9,7 +9,7 @@ function SectionSkills() {
                 <h2>Skills</h2>
             </div>
                 <p style={{display: "none"}}>TODO: style this section</p>
-                <p>
+                <div>
                     <ul>
                         <li>React</li>
                         <li>Angular</li>
@@ -28,7 +28,7 @@ function SectionSkills() {
                         <li>Docker</li>
                         <li>Node.js</li>
                     </ul>
-                </p> 
+                </div> 
             </section>
         </div>
     )

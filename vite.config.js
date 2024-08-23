@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   assetsInclude: ['**/*.JPG'],
-  // base: '/',
+  base: '/taradunmore/',
   server: {
     port: 8080,
     hot: true

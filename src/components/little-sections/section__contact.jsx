@@ -26,24 +26,24 @@ function SectionContact() {
                     <div className="d-block d-lg-none">
                         <ul>
                             <li>
-                                <a href="https://www.linkedin.com/in/tarajdunmore/" target="_blank">
-                                    <button className="btn button_slide slide_right">
+                                <a className="contact-links button-style" href="https://www.linkedin.com/in/tarajdunmore/" target="_blank">
+                                    {/* <button className="btn button_slide slide_right"> */}
                                         <i className="fab fa-linkedin"></i> LinkedIn
-                                    </button>
+                                    {/* </button> */}
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/pixelpollux" target="_blank">
-                                    <button className="btn button_slide slide_right">
+                                <a className="contact-links button-style" href="https://github.com/pixelpollux" target="_blank">
+                                    {/* <button className="btn button_slide slide_right"> */}
                                         <i className="fab fa-github"></i> GitHub
-                                    </button>
+                                    {/* </button> */}
                                 </a>
                             </li>
                             <li>
-                                <a href="mailto:me@taradunmore.com" target="_blank">
-                                    <button className="btn button_slide slide_right">
+                                <a className="contact-links button-style" href="mailto:me@taradunmore.com" target="_blank">
+                                    {/* <button className="btn button_slide slide_right"> */}
                                         <i className="far fa-envelope"></i> Email
-                                    </button>
+                                    {/* </button> */}
                                 </a>
                             </li>
                         </ul>

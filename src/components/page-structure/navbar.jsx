@@ -10,8 +10,8 @@ export default function Navbar() {
 
     const isMobile = useMediaQuery("only screen and (max-width: 499px)");
     const isSmallTablet = useMediaQuery("only screen and (min-width: 500px) and (max-width : 799px)");
-    const isBigTablet = useMediaQuery("only screen and (min-width: 800px) and (max-width : 1099px)");
-    const isDesktopOrLaptop = useMediaQuery("only screen and (min-width: 1100px) and (max-width : 1399px)");
+    const isBigTablet = useMediaQuery("only screen and (min-width: 800px) and (max-width : 1023px)");
+    const isDesktopOrLaptop = useMediaQuery("only screen and (min-width: 1024px) and (max-width : 1399px)");
     const isBigScreen = useMediaQuery("only screen and (min-width: 1400px)");
 
     const [isOpen, setIsOpen] = useState(false);

@@ -1,18 +1,10 @@
 import React, {useState} from 'react';
 
-import { useMediaQuery } from "@uidotdev/usehooks";
-
-
-// import * as React from 'react'
-// import useMediaQuery from '@mui/material/useMediaQuery'
+import useMediaQueries from "../imports/useMediaQueries"
 
 export default function Navbar() {
 
-    const isMobile = useMediaQuery("only screen and (max-width: 499px)");
-    const isSmallTablet = useMediaQuery("only screen and (min-width: 500px) and (max-width : 799px)");
-    const isBigTablet = useMediaQuery("only screen and (min-width: 800px) and (max-width : 1023px)");
-    const isDesktopOrLaptop = useMediaQuery("only screen and (min-width: 1024px) and (max-width : 1399px)");
-    const isBigScreen = useMediaQuery("only screen and (min-width: 1400px)");
+    const {isMobile, isSmallTablet, isBigTablet, isDesktopOrLaptop, isBigScreen} = useMediaQueries();
 
     const [isOpen, setIsOpen] = useState(false);
 

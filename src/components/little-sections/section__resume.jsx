@@ -21,7 +21,7 @@ export default function SectionResume() {
                     {/* <p>
                         Here i'll put my resume shortly.
                     </p>  */}
-                    <button onClick={handleButton} className="btn button_slide slide_right">
+                    <button onClick={handleButton} className="btn button-style button_slide slide_right">
                         {isVisible ? 'Hide résumé' : 'Show résumé'}
                     </button>
                     <button style={{display: "none"}} type="button" target="_blank" className="btn button_slide slide_right">

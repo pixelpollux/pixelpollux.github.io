@@ -21,7 +21,7 @@ export default function Navbar() {
                 <a className="navbar-brand" href="#">home</a>
                 <button 
                     onClick={handleButton}
-                    className="navbar-toggler dropdown-button navbar-toggler-right" 
+                        className="navbar-toggler dropdown-button navbar-toggler-right " 
                     type="button" 
                     data-toggle=""
                     data-target="">

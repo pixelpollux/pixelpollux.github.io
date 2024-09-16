@@ -11,8 +11,8 @@
     "preview": "vite preview --config vite.config.js",
     "start": "vite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@uidotdev/usehooks": "^2.4.1",

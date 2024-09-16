@@ -319,6 +319,10 @@ button.navbar-toggler:focus {
   margin-top: 2rem;
 }
 
+#extended-bio > * {
+  margin-bottom: 2rem;
+}
+
 .resume__job .resume__subtitle-section {
   display: flex;
   justify-content: space-between;
